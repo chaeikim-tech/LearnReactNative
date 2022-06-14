@@ -5,7 +5,7 @@ function Empty() {
   return (
     <View style={styles.block}>
       <Image
-        source={require('../assets/images/circle.png')}
+        source={{uri: 'https://via.placeholder.com/150'}}
         style={styles.image}
         resizeMode="repeat"
       />
