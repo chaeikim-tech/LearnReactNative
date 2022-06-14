@@ -5,7 +5,7 @@ function Empty() {
   return (
     <View style={styles.block}>
       <Image
-        source={{uri: 'https://via.placeholder.com/150'}}
+        source={require('../assets/images/young_and_happy.png')}
         style={styles.image}
         resizeMode="repeat"
       />
@@ -19,11 +19,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'white',
   },
   image: {
-    width: 300,
-    height: 200,
-    backgroundColor: 'gray',
+    width: 240,
+    height: 179,
+    marginBottom: 16,
   },
   description: {
     fontSize: 24,
